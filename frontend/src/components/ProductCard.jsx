@@ -25,6 +25,7 @@ export default function ProductCard({ disabled, onSelectProduct, product }) {
       </div>
       <div className="bg-sky-600 px-3 py-2 text-base font-semibold leading-6 text-white">
         {/* TODO: 商品名を表示 */}
+        {product.name}
       </div>
     </button>
   );
